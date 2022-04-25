@@ -1,11 +1,11 @@
-def student_helper(student) -> dict:
+def citizen_helper(citizen) -> dict:
     return {
-        "id": str(student['_id']),
-        "fullname": student['fullname'],
-        "email": student['email'],
-        "course_of_study": student['course_of_study'],
-        "year": student['year'],
-        "GPA": student['gpa']
+        "id": str(citizen['_id']),
+        "fullname": citizen['fullname'],
+        "email": citizen['email'],
+        "course_of_study": citizen['course_of_study'],
+        "year": citizen['year'],
+        "GPA": citizen['gpa']
     }
 
 def admin_helper(admin) -> dict:
